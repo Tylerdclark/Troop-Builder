@@ -1,0 +1,26 @@
+{
+  "name": "troop-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tylerdclark/Troop-Builder.git"
+  },
+  "keywords": [],
+  "author": "Tyler Clark",
+  "license": "ISC",
+  "bin": {
+    "troop-builder": "src/app.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Tylerdclark/Troop-Builder/issues"
+  },
+  "homepage": "https://github.com/Tylerdclark/Troop-Builder#readme",
+  "devDependencies": {
+    "netlify-cli": "^8.15.3"
+  }
+}
