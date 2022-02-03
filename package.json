@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,5 @@
     "jest": "^27.4.7",
     "netlify-cli": "^8.15.3"
   },
-  "type": "module"
+  "dependencies": {}
 }
