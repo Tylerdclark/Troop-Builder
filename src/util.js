@@ -68,4 +68,8 @@ const checkTotal = (nums, total) => {
     }
 }
 
-export default randomNumber;
+
+exports.randomNumber = randomNumber;
+exports.getRandomInt = getRandomInt;
+exports.checkForZeroes = checkForZeroes;
+exports.checkTotal = checkTotal;
