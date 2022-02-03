@@ -1,4 +1,4 @@
-import randomNumber from './util.cjs';
+import randomNumber from './util.mjs';
 
 export async function handler(event) {
 	const queries = event.queryStringParameters;
