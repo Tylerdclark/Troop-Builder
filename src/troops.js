@@ -17,13 +17,13 @@ exports.handler = async (event) => {
 		};
 	}
 
-	// make sure the request is for the correct path
-	if (event.path !== '/troops') {
-		return {
-			statusCode: 404,
-			body: 'Not found'
-		};
-	}
+	// // make sure the request is for the correct path
+	// if (event.path !== '/troops') {
+	// 	return {
+	// 		statusCode: 404,
+	// 		body: 'Not '
+	// 	};
+	// }
 
 	const queries = event.queryStringParameters;
 	const count = queries.count ? parseInt(queries.count) : 1;
