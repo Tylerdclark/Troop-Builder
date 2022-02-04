@@ -45,7 +45,6 @@ The easiest way to try the API is to use the already deployed URL
 
     curl https://troop-builder.netlify.app/.netlify/functions/troops?count=3&total=160
 
-
 Depending on whether the API is running locally or deployed to Netlify, the URL for the API will be different. Regardless, the URL will be:
 
 (base URL)/.netlify/functions/troops?count=*COUNT*&total=*TOTAL*
