@@ -1,11 +1,12 @@
 {
   "name": "troop-builder",
   "version": "1.0.0",
-  "description": "",
-  "main": "src/app.js",
+  "description": "An API to build troops. Uses Netlify serverless function to run the server-side code without a server. ",
+  "main": "src/troops.js",
   "scripts": {
     "test": "jest",
-    "coverage": "jest --collectCoverage"
+    "coverage": "jest --collectCoverage",
+    "dev": "netlify dev"
   },
   "repository": {
     "type": "git",
