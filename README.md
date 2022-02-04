@@ -35,9 +35,11 @@ Or, if you wish to deploy the API to Netlify [after creating an account](https:/
 
     netlify login
 
- and run the following command:
+ and run the following commands:
 
-    npm run deploy
+    netlify init
+
+    netlify deploy
 
 ## Usage
 
