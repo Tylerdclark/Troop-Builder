@@ -10,7 +10,7 @@ Troop builder is a NodeJS application that uses the Netlify serverless functions
 
 <https://troop-builder.netlify.app/.netlify/functions/troops?count=3&total=160>
 
-please note the query parameters at end of the URL are required.
+**please note the query parameters at end of the URL are required.**
 
 ## Installation
 
